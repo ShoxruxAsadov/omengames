@@ -1,0 +1,14 @@
+.swipper-wrapper {
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    swipper{
+        width: 1170px;
+        height: 500px;
+        background-color: white;
+    }
+}
