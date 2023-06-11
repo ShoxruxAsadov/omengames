@@ -1,6 +1,6 @@
 {
   "short_name": "OmenGames",
-  "name": "OmenGames Store",
+  "name": "OmenGames",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#252525"
+  "theme_color": "#25282B",
+  "background_color": "#1B1E22"
 }

@@ -3,9 +3,9 @@ import { ImSearch } from "react-icons/im";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { HiMenuAlt3 } from "react-icons/hi";
 import "./header.scss";
+import { Link } from "react-router-dom";
 
-function Header() {
-
+export default function Header() {
   function leftCategory() {
     console.log("Left");
   }
@@ -17,23 +17,23 @@ function Header() {
     <header id="header">
       <div className="container">
         <div className="logo">
-          <a href="/">
+          <Link to="/admin">
             <img src={logo} width={"138px"} />
-          </a>
+          </Link>
         </div>
         <div className="navbar">
           <ul className="list">
             <li>
-              <a href="#">Home</a>
+              <a href="#">Главная</a>
             </li>
             <li>
-              <a href="#">Twitter</a>
+              <a href="#">Телеграм</a>
             </li>
             <li>
-              <a href="#">Reviews</a>
+              <a href="#">Отзывы</a>
             </li>
             <li>
-              <a href="#">Support</a>
+              <a href="#">Поддержка</a>
             </li>
           </ul>
         </div>
@@ -54,5 +54,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
